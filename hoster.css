@@ -47,9 +47,13 @@ a{
 main{
     display:flex;
     margin-top: 10%;
+    justify-content:space-between;
+    position: relative;
+    height:59%;
 }
 .midleft,.midright{
     width:50%;
+    border-style: solid;
 }
 h1{
     font-size: 48px;
@@ -77,8 +81,7 @@ input{
 }
 form button{
     width:29%;
-    font-size: 17px;
-    
+    font-size: 17px;   
 }
 .middown{
     display: flex;
@@ -89,9 +92,30 @@ form button{
 .middown img{
     width:90%;
 }
-.midright img{
-    width:50%;
+.midright{
+    position: relative;
 }
+.midright img{
+    position: absolute;
+    width: 50%;
+    left:20%;
+}
+.hero{
+    order:4;   
+}
+.a{
+    order: 1;
+    transform: rotate(-35deg);
+}
+.b{
+    order:2;
+    transform: rotate(-25deg);
+}
+.c{
+    order: 3;
+    transform: rotate(-15deg);
+}
+
 footer{
     display: flex;
     justify-content: space-between;

@@ -6,9 +6,13 @@
 }
 body{
     background:rgba(250, 153, 153, 0.2);
-    padding:2% 10% 0% 10%;
     height:100vh; 
     font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 2% 0;
 }
 header{
     display:flex;

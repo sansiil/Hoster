@@ -28,10 +28,11 @@ header{
 }
 .lefttop button{
     border:none;
-    padding:5px 7px;
-    border-radius: 13px;
+    padding:9px 14px;
+    border-radius: 19px;
     margin-left: 9px; 
-    color:white; 
+    color:white;
+    background-image: linear-gradient(to right, #eab052 0%, #ea8960 51%, #ea5f70 100%);
 }
 a{
     text-decoration: none;

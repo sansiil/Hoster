@@ -164,6 +164,7 @@ footer a{
     main{
         flex-direction: column-reverse;
         border-style: solid;
+        justify-content: start;
     }
     .midleft,.midright{
         width:100%;

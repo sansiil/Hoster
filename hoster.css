@@ -51,20 +51,20 @@ a{
 }
 main{
     display:flex;
-    margin-top: 10%;
+    margin-top: 7%;
     justify-content:space-between;
-    position: relative;
-    height:59% ;
 
 }
 .midleft,.midright{
     width:50%;
     border-style: solid;
 }
+
 h1{
     font-size: 48px;
     color:black;
     line-height:50px;
+    margin-top: 5%;
 }
 p{
     font-size:15.5px;
@@ -99,26 +99,31 @@ form button{
     width:90%;
 }
 .midright{
+    width:40%;
+    display: flex;
+    justify-content: center;
+}
+.midright figure {
     position: relative;
+    height: 100%; 
 }
-.midright img{
-    position: absolute;
-    width: 50%;
-    left:20%;
+.midright figure img{
+   height:300px; 
 }
-.hero{
-    order:4;   
+.a,.b,.c{ 
+    position:absolute;
+    z-index:-99;
 }
 .a{
-    order: 1;
+    
     transform: rotate(-35deg);
 }
 .b{
-    order:2;
+    
     transform: rotate(-25deg);
 }
 .c{
-    order: 3;
+   
     transform: rotate(-15deg);
 }
 
@@ -135,7 +140,8 @@ footer{
     display: flex;
     align-items: center;
 }
-figure img{
+
+.bottomright figure img{
     width:90%;
 }
 .bottomright figcaption p{
@@ -153,25 +159,25 @@ footer a{
 @media (max-width:1100px){
     body{
         padding:9px;
-        position:relative;
+        
     }
     main{
         flex-direction: column-reverse;
+        border-style: solid;
     }
     .midleft,.midright{
         width:100%;
-    }
-    .midleft{
-        margin-top:64%;
-    }
-    .midright{
-        top:30vh;
     }
     #hidden{
         display:block;
     }
     .topright,.topmid{
         display: none;
+    }
+    .midright{
+        border: 2px red solid;
+        width:100%;
+       
     }
     form{
         flex-direction: column;

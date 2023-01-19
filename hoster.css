@@ -55,9 +55,8 @@ main{
     justify-content:space-between;
 
 }
-.midleft,.midright{
+.midleft{
     width:50%;
-    border-style: solid;
 }
 
 h1{
@@ -163,7 +162,6 @@ footer a{
     }
     main{
         flex-direction: column-reverse;
-        border-style: solid;
         justify-content: start;
     }
     .midleft,.midright{
@@ -172,11 +170,10 @@ footer a{
     #hidden{
         display:block;
     }
-    .topright,.topmid{
+    .topright,#topmid{
         display: none;
     }
     .midright{
-        border: 2px red solid;
         width:100%;
        
     }

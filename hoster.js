@@ -4,7 +4,8 @@ const hid= document.getElementById('hidden');
 
 function hide(){
 
-    if(drop.style.display === 'none'){
+    if(drop.style.display === 'none' || drop.style.display === ''){
+
         drop.style.display= 'block';
         drop.style.border='1px  none';
         hid.style.position='relative';
@@ -23,7 +24,7 @@ function hide(){
         
     }
     else{
-        drop.style.display= 'none';
+        drop.style.display='none';
     }
 
 };
